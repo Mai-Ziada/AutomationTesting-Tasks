@@ -37,7 +37,7 @@ public class Task1 {
       driver.findElement(By.cssSelector("[type='email']")).sendKeys("MZ2025@email.com");
       driver.findElement(By.cssSelector("[type='password']")).sendKeys("test1234");
      //Login
-      driver.findElement(By.xpath("//button[@type='submit']")).click();
+      driver.findElement(By.xpath("//button[@class='button-1 login-button']")).click();
 
   }
 
